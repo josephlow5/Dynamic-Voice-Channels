@@ -1,4 +1,4 @@
-# Dynamic-Voice-Channels
+# Impressive-Voice-Channels
 
 Inspired by https://yeecord.com/
 
