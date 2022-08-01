@@ -2,7 +2,7 @@ import data
 
 #JK
 
-def process_changes(member, after):
+async def process_changes(member, after):
     name = member.display_name + "的小黑屋"
     #permissions dict : everyone -> cannot modify, can enter
     new_voice_channel = await after.guild.create_voice_channel(name,category=after.category, bitrate=256,
