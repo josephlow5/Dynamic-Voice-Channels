@@ -1,3 +1,4 @@
+from importlib.resources import path
 import data
 
 #JK
@@ -9,7 +10,9 @@ async def process_changes(member, after):
                                                                overwrites=permissions)
     data.add_subchannel(new_voice_channel.id)
     #move member to this channel
-    
+
+
 def close_subchannel(after):
     #delete
     #remove subchannel
+    path
