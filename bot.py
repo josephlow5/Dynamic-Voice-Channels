@@ -2,10 +2,12 @@
 #                               机器人源码                                             #
 #======================================================================================#
 
-from importlib.resources import path
 import data
-bot_token = "MTAwMzU3NTg1MTQ2MTM4MjE5NQ.GGeavO.E7JJSL_r01H4wZa6WalIkeqWrr2f9SyrzL3R9k"
-bot_invite = "https://discord.com/api/oauth2/authorize?client_id=1003575851461382195&permissions=8&scope=bot"
+import json
+with open("config.json", encoding="utf-8") as configFile:
+    config = json.load(configFile)
+bot_token = config["token"]
+bot_invite = config["invite"]
 
 import os, sys
 directory = os.getcwd()
@@ -20,7 +22,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):  #auto evil mean, annoying chatbot
-    path
+    pass
     #example -> 有人知道怎么修理bug吗 -> 怎么不去把你的人生修理好
     #example -> 哈咯 -> 哈咯,废物
     #example -> 我失恋了 -> 很好,继续寻找你的下一个失败吧
@@ -29,8 +31,6 @@ async def on_message(message):  #auto evil mean, annoying chatbot
 #Add Category
 #Create Monitor Channel -> add to data
 #Reply slask command
-
-
 
 @client.event
 async def on_voice_state_update(member, before, after): 
