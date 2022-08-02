@@ -6,6 +6,6 @@ Inspired by https://yeecord.com/
 
 2. Voice Channel Activity Moderation - Kick, warn when people mute or deafen. Send someone in to cheers while someone starts Go Live.
 
-3. Chatbot - Feeling lonely no one is having conversation with you, we have some 'REAL HUMAN' staff to chat with you.
+3. Chatbot - Feeling lonely no one is having conversation with you? Not to worry, we have some 'REAL HUMAN' staff to chat with you.
 
 4. Slash Command Setup - Nothing to describe.
