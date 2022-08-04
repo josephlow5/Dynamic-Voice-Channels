@@ -26,7 +26,7 @@ async def warn(ctx, member:discord.Member, *, reason=None):
   await channel.set_permissions(guild.default_role, overwrite=overwritee)
   await channel.set_permissions(mrole, overwrite=overwrite)
  if channel is None:
-  channel = await guild.create_text_channel('warn-logs')
+  channel = await guild.create_text_channel('warn-logs',category=category)
   overwritee.read_messages = False
   overwritee.read_message_history = False
   overwritee.send_messages = False
