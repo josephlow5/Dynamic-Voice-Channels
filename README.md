@@ -9,3 +9,11 @@ Inspired by https://yeecord.com/
 3. Chatbot - Feeling lonely no one is having conversation with you? Not to worry, we have some 'REAL HUMAN' staff to chat with you.
 
 4. Slash Command Setup - Nothing to describe.
+
+
+
+# Installation
+
+1. pip install -r requirements.txt (which is in data folder)
+
+2. install [vcredist](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads)
