@@ -12,25 +12,31 @@
   },
   {
     "tag": "Name",
-    "patterns": ["Who r u?","Who are you?","your name?","What's your name?"],
-    "responses": ["Dragon who breathe blue fire","Blue Dragon","DragonXtBlue","DragonXtBlue in English"]
+    "patterns": ["Who r u?","Who are you?","your name?","What's your name?",
+                 "你的名字","你是什麽","你是什么"],
+    "responses": ["Dragon who breathe blue fire","Blue Dragon","DragonXtBlue","DragonXtBlue in English","藍色的龍","龍x藍","秘密"]
   },
   {
     "tag": "Creator",
-    "patterns": ["I solemnly swear I'm up to no good.","Who is your creator?", "Who are your creator?", "your creator?"],
-    "responses": ["Josephlow, Shuhong, Jkkkk, Yohane and Lum\nare proud to present\nThe DragonXtBlue","It's a secret."]
+    "patterns": ["I solemnly swear I'm up to no good.","Who is your creator?", "Who are your creator?", "your creator?",
+                 "你的創作者是誰","你的创作者","我在此鄭重發誓，我絕對不懷好意","我在此郑重发誓，我绝对不怀好意"],
+    "responses": ["Josephlow, Shuhong, Jkkkk, Yohane and Lum\nare proud to present\nThe DragonXtBlue","It's a secret.",
+                 "Josephlow、Shuhong、Jkkkk、Yohane和多多動物細胞\n自豪地獻上\n龍x藍"]
   },
   {
     "tag": "Skills",
-    "patterns": ["What are you here for?","What can you do?", "What are your skills?","What do you know?"],
+    "patterns": ["What are you here for?","What can you do?", "What are your skills?","What do you know?",
+                 "功能","你的功能是什麽","你可以幹嘛"],
     "responses": ["It's a secret.","Next question, please.","Answer to your stupid question.", "Dynamic Voice Channels",
-                  "Voice Channel Activity Moderation","Key in '/' to look for more","Best in trash talking."]
+                  "Voice Channel Activity Moderation","Key in '/' to look for more","Best in trash talking.",
+                  "目前是想屌爆你。", "創造專屬你的語音頻道", "輸入'/'就知道了", "警告那些隨便mute和deafen的人","提醒大家來看live啊！", "秘密"]
   },
   {
     "tag": "Age",
-    "patterns": ["How old are you?", "What's your age"],
+    "patterns": ["How old are you?", "What's your age",
+                 "你幾歲","你几岁"],
     "responses": ["It’s the same number as your IQ score.","Take a guess!","As old as you want me to be, honey.","It’s a secret.",
-                  "It doesn’t matter how old I am!","How old do you think I am?","Age is just a number.","I am always 18 years old"]
+                  "It doesn’t matter how old I am!","How old do you think I am?","Age is just a number.","I am always 18 years old","和你IQ差不多"]
   },
   {
     "tag": "Friends",
@@ -39,16 +45,18 @@
   },
   {
     "tag": "Food",
-    "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat"],
+    "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat",
+                 "吃什麽","選一個食物","","吃什么","选一個食物"],
     "responses": ["shit", "tons of shit", "Nasi Lemak", "maggi", "Mcdonald", "KFC", "burger", "mamak", "mihun",
                   "french fried","bento","yourself","grass","dirt","beef","western-style food","curry","curry mee",
                   "rice","soup","Porridge","Bread","Seafood","pasta","cookies","noodles","fried chicken","Spaghetti",
-                  "Waffles","fried rice"]
+                  "Waffles","fried rice","屎","一大坨屎", "椰漿飯", "雞飯"]
   },
   {
     "tag": "Debug",
-    "patterns": ["debug?","How to debug?"],
-    "responses": ["Fix your life first.","Just buy a pesticide.","Ez lol, what a stupid question!","You got me","Interesting"]
+    "patterns": ["debug?","How to debug?","有人知道怎么修理bug吗","有人知道怎麽修理bug嗎","怎么修理bug","怎麽修理bug"],
+    "responses": ["Fix your life first.","Just buy a pesticide.","Ez lol, what a stupid question!","You got me","Interesting",
+                  "怎么不去把你的人生修理好","買個殺蟲劑就好了","？太簡單了吧？","貼上來看看"]
   },
   {
     "tag": "DOTA term",
@@ -66,9 +74,24 @@
     "responses": ["Huh?","Meh","stfu","I m the AI, stupid user.","Shut up","such a moron","wtf","you must be joking","lol"]
   },
   {
-    "tag": "asking",
-    "patterns": ["Can you","can you","Do you know how","Do you know","What is"],
-    "responses": ["No, google yourself lazy fat ass.","Next question pls.","It's a secret","Can't tell you, haha."]
+    "tag": "Ask",
+    "patterns": ["Can you","can you","Do you know how","Do you know","What is","问你","問你"],
+    "responses": ["No, google yourself lazy fat ass.","Next question pls.","It's a secret","Can't tell you, haha.","不想回答ψ(｀∇´)ψ","Google不香嗎？"]
+  },
+  {
+    "tag": "Choose",
+    "patterns": [" or ","還是","还是"],
+    "responses": ["隨便啦！", "小孩子才做選擇。","依我看還有第三個選擇。"]
+  },
+  {
+    "tag": "CanDo",
+    "patterns": ["你可以"],
+    "responses": ["不可以，麻煩。","叫我做就做，將我不是很沒用面子？"]
+  },
+  {
+    "tag": "What",
+    "patterns": ["講什麽","講多一次","讲什么","讲多一次"],
+    "responses": ["不要，麻煩。","往上看就好了啊。"]
   },
   {
     "tag": "Laugh",
@@ -76,85 +99,33 @@
     "responses": ["Laugh what?","What are you laughing?","lol","HAHAHAHAHAHA"]
   },
   {
+    "tag": "HeartBroken",
+    "patterns": ["我失恋了","告白失敗","告白被拒絕怎麽辦","被甩了"],
+    "responses": ["很好,继续寻找你的下一个失败吧"]
+  },
+  {
     "tag": "Question Mark",
     "patterns": ["WTF","wtf","?","har","meh"],
     "responses": ["?", "??","???","????","?????","??????","???????","????????","?????????","??????????","Har?"]
   },
   {
-    "tag": "Bug",
-    "patterns": ["有人知道怎么修理bug吗"],
-    "responses": ["怎么不去把你的人生修理好"]
-  },
-  {
-    "tag": "HeartBroken",
-    "patterns": ["我失恋了"],
-    "responses": ["很好,继续寻找你的下一个失败吧"]
-  },
-  {
-    "tag": "Name2",
-    "patterns": ["你的名字","你是什麽","你是什么"],
-    "responses": ["藍色的龍","DragonXtBlue","龍x藍","秘密"]
-  },
-  {
-    "tag": "Creator2",
-    "patterns": ["你的創作者","你的创作者","我在此鄭重發誓，我絕對不懷好意","我在此郑重发誓，我绝对不怀好意"],
-    "responses": ["Josephlow、Shuhong、Jkkkk、Yohane和多多動物細胞\n自豪地獻上\n龍x藍"]
-  },
-  {
-    "tag": "Skills2",
-    "patterns": ["功能","你的功能"],
-    "responses": ["目前的興趣是屌爆你。", "創造專屬你的語音頻道", "輸入'/'就知道了", "警告那些隨便mute和deafen的人","提醒大家來看live啊！", "秘密"]
-  },
-  {
-    "tag": "Age2",
-    "patterns": ["你幾歲","你几岁"],
-    "responses": ["和你IQ差不多"]
-  },
-  {
-    "tag": "Ask2",
-    "patterns": ["问你","問你"],
-    "responses": ["不想回答ψ(｀∇´)ψ"]
-  },
-  {
-    "tag": "Food2",
-    "patterns": ["吃什麽","選一個食物","吃什么","选一個食物"],
-    "responses": ["屎", "shit", "一大坨屎", "椰漿飯", "雞飯"]
-  },
-  {
-    "tag": "Choose",
-    "patterns": [" or ","還是","还是"],
-    "responses": ["隨便啦！", "小孩子才做選擇。"]
-  },
-  {
-    "tag": "BadWords",
-    "patterns": ["幹","干","媽的","妈的","嫩","操你","雞掰","擊敗","鸡掰","鸡掰","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌"],
-    "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！", "stfu", "shut the fk up", "shut up pls", "Fk you too","pussy", "shut up noob", "Jibai", "moron", "putang ina mo", "bobo"]
-  },
-  {
-    "tag": "CanDo",
-    "patterns": ["你可以"],
-    "responses": ["不可以，麻煩。"]
-  },
-  {
-    "tag": "What2",
-    "patterns": ["講什麽","講多一次","讲什么","讲多一次"],
-    "responses": ["不要，麻煩。"]
-  },
-  {
-    "tag": "Trash Talking",
-    "patterns": ["fk you", "fk u", "fk", "fuck you", "fuck u", "fuck","fking","fucking",
+    "tag": "Badwords",
+    "patterns": ["幹","干","媽的","妈的","嫩","操你","雞掰","擊敗","鸡掰","鸡掰","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","tmd","nmsl"
+                "fk you", "fk u", "fk", "fuck you", "fuck u", "fuck","fking","fucking",
                 "stfu", "shut the fk up", "shut the fuck up", "shut up pls", "shut up please",
                 "bullshit","piece of shit", "u r a piece of shit", "you r a piece of shit", "u are a piece of shit", "you are a piece of shit", "such a piece of shit",
                 "trash", "garbage", "u r a trash", "you r a trash", "you are a trash",
-                "jibai", "Jibai",
+                "jibai", "Jibai","sohai","死sohai",
                 "moron",
-                "noob", "noob shut up", "shut up noob", "noob bot", "noob ai"],
-    "responses": ["fk u", "???", "fuck you",
+                "noob", "noob shut up", "shut up noob", "noob bot", "noob ai", "useless bot", "useless ai"],
+    "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","tmd","nmsl"
+                "fk u", "???", "fuck you",
                 "stfu", "shut the fk up", "shut up pls",
                 "You are a piece of shit.",
                 "shut up noob",
-                "jibai", "Jibai",
+                "jibai", "Jibai","sohai","死sohai",
                 "fking moron",
+                "noob user","useless user"
                 "putang ina mo", "bobo"]
   }
 ]
