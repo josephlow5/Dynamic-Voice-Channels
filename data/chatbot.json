@@ -1,7 +1,7 @@
 {"intents": [
   {
     "tag": "Greetings 1",
-    "patterns": ["hello", "hi", "bello", "yo"],
+    "patterns": ["hello", "hi", "bello", "yo","halo"],
     "responses": ["lol doubi", "What's up nerd", "YO", "Hello World", "Hello There"]
   },
   {
@@ -13,20 +13,20 @@
   {
     "tag": "Name",
     "patterns": ["Who r u?","Who are you?","your name?","What's your name?",
-                 "你的名字","你是什麽","你是什么"],
+                 "你的名字","你是谁","你是什麽","你是什么"],
     "responses": ["Dragon who breathe blue fire","Blue Dragon","DragonXtBlue","DragonXtBlue in English","藍色的龍","龍x藍","秘密"]
   },
   {
     "tag": "Creator",
     "patterns": ["I solemnly swear I'm up to no good.","Who is your creator?", "Who are your creator?", "your creator?",
-                 "你的創作者是誰","你的创作者","我在此鄭重發誓，我絕對不懷好意","我在此郑重发誓，我绝对不怀好意"],
+                 "創作者","你的創作者","你的創作者是誰","我在此鄭重發誓，我絕對不懷好意","创作者","你的创作者","你的创作者是谁","我在此郑重发誓，我绝对不怀好意"],
     "responses": ["Josephlow, Shuhong, Jkkkk, Yohane and Lum\nare proud to present\nThe DragonXtBlue","It's a secret.",
                  "Josephlow、Shuhong、Jkkkk、Yohane和多多動物細胞\n自豪地獻上\n龍x藍"]
   },
   {
     "tag": "Skills",
     "patterns": ["What are you here for?","What can you do?", "What are your skills?","What do you know?",
-                 "功能","你的功能是什麽","你可以幹嘛"],
+                 "功能","你的功能","你的功能是什麽","你的功能是什么","你可以幹嘛","你可以干嘛","你在這裏幹嘛","你在这里干嘛"],
     "responses": ["It's a secret.","Next question, please.","Answer to your stupid question.", "Dynamic Voice Channels",
                   "Voice Channel Activity Moderation","Key in '/' to look for more","Best in trash talking.",
                   "目前是想屌爆你。", "創造專屬你的語音頻道", "輸入'/'就知道了", "警告那些隨便mute和deafen的人","提醒大家來看live啊！", "秘密"]
@@ -79,20 +79,15 @@
     "responses": ["No, google yourself lazy fat ass.","Next question pls.","It's a secret","Can't tell you, haha.","不想回答ψ(｀∇´)ψ","Google不香嗎？"]
   },
   {
-    "tag": "Choose",
-    "patterns": [" or ","還是","还是"],
-    "responses": ["隨便啦！", "小孩子才做選擇。","依我看還有第三個選擇。"]
-  },
-  {
-    "tag": "CanDo",
-    "patterns": ["你可以"],
-    "responses": ["不可以，麻煩。","叫我做就做，將我不是很沒用面子？"]
-  },
-  {
     "tag": "What",
     "patterns": ["講什麽","講多一次","讲什么","讲多一次"],
     "responses": ["不要，麻煩。","往上看就好了啊。"]
   },
+  {
+    "tag": "Why",
+    "patterns": ["爲啥","爲什麽","为啥","为什么","why","how"],
+    "responses": ["哪有那麽多爲啥啦","哪有那麽多爲什麽啦","問問問","不知道","哎喲，你讓我靜靜吧","閉嘴啦"]
+  }
   {
     "tag": "Laugh",
     "patterns": ["ha","haha","hahaha","hahahaha","hahahahaha"],
@@ -104,18 +99,23 @@
     "responses": ["很好,继续寻找你的下一个失败吧"]
   },
   {
-    "tag": "Question Mark",
-    "patterns": ["WTF","wtf","?","har","meh"],
-    "responses": ["?", "??","???","????","?????","??????","???????","????????","?????????","??????????","Har?"]
+    "tag": "Speechless",
+    "patterns": ["?","？","？？"],
+    "responses": ["我已讀了\n但不知道要回什麽[]~(￣▽￣)~*","stfu","已讀 (o゜▽゜)o☆","哦"]
+  },
+  {
+    "tag": "Text Seen",
+    "patterns": ["why seen","已讀什麽","已讀什麽","爲什麽要已讀"],
+    "responses": ["想已讀就已讀，你吹啊","不知道要回什麽","懶得踩你","閉嘴啦你","stfu"]
   },
   {
     "tag": "Badwords",
-    "patterns": ["幹","干","媽的","妈的","嫩","操你","雞掰","擊敗","鸡掰","鸡掰","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","tmd","nmsl",
+    "patterns": ["幹","干","媽的","妈的","你他媽的","你他妈的","嫩","操你","雞掰","雞白","擊敗","鸡掰","鸡白","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","垃圾","tmd","nmsl",
                 "fk you", "fk u", "fk", "fuck you", "fuck u", "fuck","fking","fucking",
                 "stfu", "shut the fk up", "shut the fuck up", "shut up pls", "shut up please",
                 "bullshit","piece of shit", "u r a piece of shit", "you r a piece of shit", "u are a piece of shit", "you are a piece of shit", "such a piece of shit",
                 "trash", "garbage", "u r a trash", "you r a trash", "you are a trash",
-                "jibai", "Jibai","sohai","死sohai",
+                "jibai", "Jibai","sohai","死sohai","WTF","wtf",
                 "moron",
                 "noob", "noob shut up", "shut up noob", "noob bot", "noob ai", "useless bot", "useless ai"],
     "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","tmd","nmsl",
@@ -123,7 +123,7 @@
                 "stfu", "shut the fk up", "shut up pls",
                 "You are a piece of shit.",
                 "shut up noob",
-                "jibai", "Jibai","sohai","死sohai",
+                "jibai", "Jibai","sohai","死sohai","WTF","wtf",
                 "fking moron",
                 "noob user","useless user",
                 "putang ina mo", "bobo"]
