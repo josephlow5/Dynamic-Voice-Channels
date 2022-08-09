@@ -1,3 +1,4 @@
+
 # DragonXtBlue-Impressive Discord Bot
 
 Inspired by https://yeecord.com/
@@ -17,3 +18,9 @@ Inspired by https://yeecord.com/
 1. pip install -r requirements.txt (which is in data folder)
 
 2. install [vcredist](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads)
+
+3. change variable **first_run** to ***True*** in lib/chatbot.py
+
+4. put your bot info in data/config.json
+
+5. run main.py once and change back **first_run** to ***False*** in lib/chatbot.py
