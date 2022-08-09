@@ -1,11 +1,12 @@
-import data
+from . import data
 
 #JK
 
 async def process_changes(member, after):
     name = member.display_name + "的小黑屋"  
-    
-    new_voice_channel = await after.guild.create_voice_channel(name,category=after.category, bitrate=256)
+
+    guild = after.channel.guild
+    new_voice_channel = await guild.create_voice_channel(name,category=after.channel.category, bitrate=96000)
     await new_voice_channel.edit(sync_permisions=True)
 
     await member.move_to(new_voice_channel)
@@ -18,4 +19,4 @@ async def process_changes(member, after):
 async def close_subchannel(after):
     await after.channel.delete()
 
-    data.delete_subchannel(after.channel.id)
+    data.remove_subchannel(after.channel.id)

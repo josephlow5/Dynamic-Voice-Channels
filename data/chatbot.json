@@ -46,7 +46,7 @@
   {
     "tag": "Food",
     "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat",
-                 "吃什麽","選一個食物","","吃什么","选一個食物"],
+                 "吃什麽","選一個食物","吃什么","选一個食物"],
     "responses": ["shit", "tons of shit", "Nasi Lemak", "maggi", "Mcdonald", "KFC", "burger", "mamak", "mihun",
                   "french fried","bento","yourself","grass","dirt","beef","western-style food","curry","curry mee",
                   "rice","soup","Porridge","Bread","Seafood","pasta","cookies","noodles","fried chicken","Spaghetti",
@@ -110,7 +110,7 @@
   },
   {
     "tag": "Badwords",
-    "patterns": ["幹","干","媽的","妈的","嫩","操你","雞掰","擊敗","鸡掰","鸡掰","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","tmd","nmsl"
+    "patterns": ["幹","干","媽的","妈的","嫩","操你","雞掰","擊敗","鸡掰","鸡掰","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","tmd","nmsl",
                 "fk you", "fk u", "fk", "fuck you", "fuck u", "fuck","fking","fucking",
                 "stfu", "shut the fk up", "shut the fuck up", "shut up pls", "shut up please",
                 "bullshit","piece of shit", "u r a piece of shit", "you r a piece of shit", "u are a piece of shit", "you are a piece of shit", "such a piece of shit",
@@ -118,14 +118,14 @@
                 "jibai", "Jibai","sohai","死sohai",
                 "moron",
                 "noob", "noob shut up", "shut up noob", "noob bot", "noob ai", "useless bot", "useless ai"],
-    "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","tmd","nmsl"
+    "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","tmd","nmsl",
                 "fk u", "???", "fuck you",
                 "stfu", "shut the fk up", "shut up pls",
                 "You are a piece of shit.",
                 "shut up noob",
                 "jibai", "Jibai","sohai","死sohai",
                 "fking moron",
-                "noob user","useless user"
+                "noob user","useless user",
                 "putang ina mo", "bobo"]
   }
 ]

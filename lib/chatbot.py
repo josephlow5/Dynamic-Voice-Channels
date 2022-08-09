@@ -9,6 +9,7 @@ from random import randint
 import time
 import os
 import sys
+import discord
 
 directory = os.getcwd()
 sys.path.insert(0, directory+"\lib")
@@ -75,5 +76,5 @@ async def input_chat(message,client):
 
     # 3.Encounter general question with Neuralintents
     else:
-        response = chatbot.request(content[0:])
+        response = chatbot.request(content)
         await message.channel.send(response)
