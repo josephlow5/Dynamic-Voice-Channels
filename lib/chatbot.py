@@ -52,6 +52,12 @@ async def input_chat(message,client):
         talk_2 = ["笑屁笑", "笑屁笑沒禮貌", "不好笑", "HAHAHAHAHAHAHA"]
         await message.add_reaction('😑')
         await message.channel.send(talk_2[randint(0, 3)])
+    elif " or " in content or "還是" in content or "还是" in content:
+        choose = ["隨便啦！", "小孩子才做選擇。"]
+        await message.channel.send(choose[randint(0, 1)])
+    elif "你可以" in content:
+        cannot = ["不可以，麻煩。","叫我做就做，將我不是很沒有面子？"]
+        await message.channel.send(cannot[randint(0, 2)])
     elif "錯" in content or "不對" in content or "错" in content or "不对" in content:									                                                                                    # 2.4 When Questioning bot
         if "不错" in content or "不錯" in content:
             await message.channel.send("哼")
