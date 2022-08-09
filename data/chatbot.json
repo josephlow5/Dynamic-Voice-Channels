@@ -87,7 +87,7 @@
     "tag": "Why",
     "patterns": ["爲啥","爲什麽","为啥","为什么","why","how"],
     "responses": ["哪有那麽多爲啥啦","哪有那麽多爲什麽啦","問問問","不知道","哎喲，你讓我靜靜吧","閉嘴啦"]
-  }
+  },
   {
     "tag": "Laugh",
     "patterns": ["ha","haha","hahaha","hahahaha","hahahahaha"],
