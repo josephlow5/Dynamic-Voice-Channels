@@ -16,12 +16,12 @@ sys.path.insert(0, directory+"\lib")
 sys.path.insert(0, directory)
 from neuralintents import GenericAssistant
 chatbot = GenericAssistant('data/chatbot.json', model_name="data/DxB_Chatbot")
+import nltk
+nltk.download('omw-1.4')
+nltk.download("maxent_treebank_pos_tagger")
+nltk.download("maxent_ne_chunker")
+nltk.download("punkt")
 if not os.path.exists("data/DxB_Chatbot.h5"):
-    import nltk
-    nltk.download('omw-1.4')
-    nltk.download("maxent_treebank_pos_tagger")
-    nltk.download("maxent_ne_chunker")
-    nltk.download("punkt")
     chatbot.train_model()
     chatbot.save_model()
 else:
