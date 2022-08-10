@@ -127,6 +127,12 @@
                 "fking moron",
                 "noob user","useless user",
                 "putang ina mo", "bobo"]
+  },
+  {
+    "tag": "Joseph Low",
+    "patterns": ["joseph","bobo","jos","jiaquan"],
+    "responses": ["Yes, anything i can help you ?","I'm in class, not free","I need to work","I no money again","The stock drop again","Want to go out or not","我又没有钱料”，
+                 "谁要打dota?"]
   }
 ]
 }
