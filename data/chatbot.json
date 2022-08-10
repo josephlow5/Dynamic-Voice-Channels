@@ -24,12 +24,53 @@
                  "Josephlow、Shuhong、Jkkkk、Yohane和多多動物細胞\n自豪地獻上\n龍x藍"]
   },
   {
+    "tag": "Joseph Low",
+    "patterns": ["joseph","bobo","jos","jiaquan"],
+    "responses": ["Yes, anything i can help you ?","I'm in class, not free","I need to work","I no money again","The stock drop again","Want to go out or not","我又没有钱料",
+                 "谁要打dota?"]
+  },
+  {
+    "tag": "Shuhong",
+    "patterns": ["DragonXtBlue","sh","Shuhong"],
+    "responses": ["sh要自己加臺詞嗎","叫我幹嘛"]
+  },
+  {
+    "tag": "Jingkai",
+    "patterns": ["jingkai","Jkkkk","jk"],
+    "responses": ["jk要自己加臺詞嗎"]
+  },
+  {
+    "tag": "Yohane",
+    "patterns": ["Yohane","Guiliang","gl"],
+    "responses": ["gl要自己加臺詞嗎"]
+  },
+  {
+    "tag": "Lum",
+    "patterns": ["多多細胞動物","lum","lam","pl","pooi lum"],
+    "responses": ["還在想臺詞...","谁要打dota?"]
+  },
+  {
     "tag": "Skills",
     "patterns": ["What are you here for?","What can you do?", "What are your skills?","What do you know?",
                  "功能","你的功能","你的功能是什麽","你的功能是什么","你可以幹嘛","你可以干嘛","你在這裏幹嘛","你在这里干嘛"],
     "responses": ["It's a secret.","Next question, please.","Answer to your stupid question.", "Dynamic Voice Channels",
                   "Voice Channel Activity Moderation","Key in '/' to look for more","Best in trash talking.",
                   "目前是想屌爆你。", "創造專屬你的語音頻道", "輸入'/'就知道了", "警告那些隨便mute和deafen的人","提醒大家來看live啊！", "秘密"]
+  },
+  {
+    "tag": "Dynamic Voice Channels",
+    "patterns": ["What is Dynamic Voice Channels","Dynamic Voice Channels","創造專屬你的語音頻道"],
+    "responses": ["I hate messy voice channels","Just click it","like a Extension Charm","Capacious extremis!","按下去不就好了","無形伸展咒！"]
+  },
+  {
+    "tag": "Voice Channel Activity Moderation",
+    "patterns": ["what is Voice Channel Activity Moderation","Voice Channel Activity Moderation"],
+    "responses": ["警告那些隨便mute和deafen的人","提醒大家來看live啊！","Kick, warn when people mute or deafen. ","Send someone in to cheers while someone starts Go Live."]
+  },
+  {
+    "tag": "Slash commands",
+    "patterns": ["what is slash commands","slash commands","輸入'/'就知道了"],
+    "responses": ["slash commands有什麽功能哦"]
   },
   {
     "tag": "Age",
@@ -45,8 +86,9 @@
   },
   {
     "tag": "Food",
-    "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat",
-                 "吃什麽","選一個食物","吃什么","选一個食物"],
+    "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat","breakfast","lunch","dinner","supper",
+                 "makan apa","makan","makanan","apa breakfast","apa lunch","apa dinner","breakfast makan apa","lunch makan apa","dinner makan apa",
+                 "吃什麽","選一個食物","來個食物","給個食物","早餐","午餐","晚餐","什麽早餐","什麽午餐","什麽晚餐","早餐吃什麽","午餐吃什麽","晚餐吃什麽"],
     "responses": ["shit", "tons of shit", "Nasi Lemak", "maggi", "Mcdonald", "KFC", "burger", "mamak", "mihun",
                   "french fried","bento","yourself","grass","dirt","beef","western-style food","curry","curry mee",
                   "rice","soup","Porridge","Bread","Seafood","pasta","cookies","noodles","fried chicken","Spaghetti",
@@ -63,6 +105,14 @@
     "patterns": ["gg","ggwp","delete DOTA pls","putang ina mo", "tangina mo","bobo", "smurf","ako mid", "2 tango 1 ward", "mid or feed"],
     "responses": ["GG","GGWP","putang ina mo","bobo", "fk u smurf","ako mid", "feed better","Delete yourself"]
   },
+  {
+    "tag": "invoker",
+    "patterns": ["invoker","injoker","how to play invoker","noob invoker","Carl"],
+    "responses": ["Glorious invocation!","What joy it is beholding me!","So begins a new age of knowledge.","Fight me!"," Knowledge is power!","Who threatens my concentration?",
+                  "Enlightenment is mine!","It falls to me to inform you that this one is in the bag!","Over yon?",
+                  "QQQ","QQW","QQE","WWW","WWQ","WWE","EEE","EEQ","EEW","QWE",
+                  "毁天灭地, NICE啊！"]
+  }
   {
     "tag": "Joke",
     "patterns": ["Make a joke","Please make a joke","Give me a joke"],
@@ -100,7 +150,7 @@
   },
   {
     "tag": "Speechless",
-    "patterns": ["?","？","？？"],
+    "patterns": ["?","??","？","？？"],
     "responses": ["我已讀了\n但不知道要回什麽[]~(￣▽￣)~*","stfu","已讀 (o゜▽゜)o☆","哦"]
   },
   {
@@ -113,8 +163,8 @@
     "patterns": ["幹","干","媽的","妈的","你他媽的","你他妈的","嫩","操你","雞掰","雞白","擊敗","鸡掰","鸡白","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","垃圾","tmd","nmsl",
                 "fk you", "fk u", "fk", "fuck you", "fuck u", "fuck","fking","fucking",
                 "stfu", "shut the fk up", "shut the fuck up", "shut up pls", "shut up please",
-                "bullshit","piece of shit", "u r a piece of shit", "you r a piece of shit", "u are a piece of shit", "you are a piece of shit", "such a piece of shit",
-                "trash", "garbage", "u r a trash", "you r a trash", "you are a trash",
+                "eat shit","bullshit","piece of shit", "u r a piece of shit", "you r a piece of shit", "u are a piece of shit", "you are a piece of shit", "such a piece of shit",
+                "eat trash","trash", "garbage", "u r a trash", "you r a trash", "you are a trash",
                 "jibai", "Jibai","sohai","死sohai","WTF","wtf",
                 "moron",
                 "noob", "noob shut up", "shut up noob", "noob bot", "noob ai", "useless bot", "useless ai"],
@@ -127,12 +177,6 @@
                 "fking moron",
                 "noob user","useless user",
                 "putang ina mo", "bobo"]
-  },
-  {
-    "tag": "Joseph Low",
-    "patterns": ["joseph","bobo","jos","jiaquan"],
-    "responses": ["Yes, anything i can help you ?","I'm in class, not free","I need to work","I no money again","The stock drop again","Want to go out or not","我又没有钱料",
-                 "谁要打dota?"]
   }
 ]
 }
