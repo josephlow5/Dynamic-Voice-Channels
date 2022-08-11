@@ -86,3 +86,9 @@ async def input_chat(message,client):
     else:
         response = chatbot.request(content)
         await message.channel.send(response)
+        
+        try_second_response = randint(0, 1)
+        if try_second_response == 1:
+            response2 = chatbot.request(content)
+            if response2 != response:
+                await message.channel.send(response2)

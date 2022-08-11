@@ -1,5 +1,7 @@
 import json
 import os, sys
+import random
+import asyncio
 
 #0. Import the latest discordpy (Not the stable, it is the version 2.0x)
 directory = os.getcwd()
@@ -41,18 +43,32 @@ client = MyClient(intents=intents)
 async def on_ready():
     await client.setup_hook()
     print('龙x蓝准备就绪!')
-    
+
+recent_chatbot_records = {}
 @client.event
 async def on_message(message):
     if data.is_monitor_chat_channel(message.channel.id):
-        await chatbot.input_chat(message,client)                 #3.1 Chatbot.
-    
+        if message.channel.id not in recent_chatbot_records:
+            recent_chatbot_records[message.channel.id] = {"timestamp":None}
+        guild_record = recent_chatbot_records[message.channel.id]
+        if guild_record["timestamp"] is not None:
+            last_response = (message.created_at - guild_record["timestamp"]).total_seconds()
+        else:
+            last_response = 1000
+        guild_record["timestamp"] = message.created_at
+        if last_response > random.randint(1, 2):
+            try:
+                async with message.channel.typing():
+                    await chatbot.input_chat(message,client)            #3.1 Chatbot.
+            except Exception as e:
+                await chatbot.input_chat(message,client)            #3.1 Chatbot.
+                
 @client.event
-async def on_voice_state_update(member, before, after):
-    if after.channel is not None:                    
+async def on_voice_state_update(member, before, after):                
+    if after.channel is not None:
         if data.is_monitor_channel(after.channel.id):
             await vc_dynamic.process_changes(member, after)      #3.2 Dynamic Voice Channels - Join VC.
-    else:
+    if before.channel is not None:
         if data.is_monitor_subchannel(before.channel.id): 
             if len(before.channel.voice_states.keys()) == 0:
                 await vc_dynamic.close_subchannel(before)         #3.2 Dynamic Voice Channels - Leave VC.
