@@ -81,6 +81,9 @@ async def input_chat(message,client):
     elif "你知道" in content or "是什麽" in content or "是什么" in content:										                                                                                                # 2.8 Just Rick-roll them
         embedVar = discord.Embed(title="不知道啦...", description=f"自己找[https://www.google.com?s={content}](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
         await message.channel.send(embed=embedVar)
+    
+    elif "valorant -1" in content:
+        await message.channel.send(f"@everyone")
 
     # 3.Encounter general question with Neuralintents
     else:
