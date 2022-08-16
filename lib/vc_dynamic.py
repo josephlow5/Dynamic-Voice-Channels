@@ -1,12 +1,18 @@
+from random import randint
 from . import data
 
 #JK
 
 async def process_changes(member, after):
-    name = member.display_name + "的小黑屋"  
+    name = [
+       '好想找人一起玩',
+       '有人要++吗😢😢',
+       '有人要陪我玩游戏吗',
+       '( ´-ω･)▄︻┻┳══━一'
+        ]
 
     guild = after.channel.guild
-    new_voice_channel = await guild.create_voice_channel(name,category=after.channel.category, bitrate=96000)
+    new_voice_channel = await guild.create_voice_channel(name[randint(0,name.len - 1)],category=after.channel.category, bitrate=96000)
     await new_voice_channel.edit(sync_permisions=True)
 
     await member.move_to(new_voice_channel)
