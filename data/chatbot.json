@@ -102,8 +102,31 @@
   },
   {
     "tag": "DOTA term",
-    "patterns": ["gg","ggwp","delete DOTA pls","putang ina mo", "tangina mo","bobo", "smurf","ako mid", "2 tango 1 ward", "mid or feed"],
-    "responses": ["GG","GGWP","putang ina mo","bobo", "fk u smurf","ako mid", "feed better","Delete yourself"]
+    "patterns": ["gg","ggwp","delete DOTA pls","putang ina mo", "tangina mo","bobo", "smurf","ako mid", "2 tango 1 ward", "mid or feed","ward pls","ward","support","carry",
+                 "Abaddon","Alchemist","Ancient Apparition","Anti-Mage","Arc Warden","Axe",
+                 "Bane"," Batrider"," Beastmaster"," Bloodseeker","Bounty Hunter","Brewmaster","Bristleback","Broodmother",
+                 "Centaur Warrunner","Chaos Knight","Chen","Clinkz","Clockwerk"," Crystal Maiden",
+                 "Dark Seer","Dazzle","Death Prophet","Disruptor","Doom","Dragon Knight","Drow Ranger",
+                 "Earth Spirit","Earthshaker","Elder Titan","Ember Spirit","Enchantress","Enigma",
+                 "Faceless Void",
+                 "Gyrocopter",
+                 "Huskar",
+                 "Io",
+                 "Jakiro","Juggernaut",
+                 "Keeper of the Light","Kunkka",
+                 "Legion Commander","Leshrac","Lich","Lifestealer","Lina","Lion","Lone Druid","Luna","Lycan",
+                 "Magnus","Medusa","Meepo","Mirana","Monkey King","Morphling","Naga Siren","Nature's Prophet","Necrophos","Night Stalker","Nyx Assassin",
+                 "Ogre Magi","Omniknight","Oracle","Outworld Devourer",
+                 "Phantom Assassin","Phantom Lancer","Phoenix","Puck","Pudge","Pugna",
+                 "Queen of Pain",
+                 "Razor","Riki","Rubick",
+                 "Sand King","Shadow Demon","Shadow Fiend","Shadow Shaman","Silencer","Skywrath Mage","Slardar","Slark","Sniper","Spectre","Spirit Breaker","Storm Spirit","Sven",
+                 "Techies","Templar Assassin","Terrorblade","Tidehunter","Timbersaw","Tinker","Tiny","Treant Protector","Troll Warlord","Tusk",
+                 "Underlord","Undying","Ursa","Vengeful Spirit","Venomancer","Viper","Visage",
+                 "Warlock","Weaver","Windranger","Winter Wyvern","Witch Doctor","Wraith King",
+                 "Zeus"],
+    "responses": ["GG","GGWP","putang ina mo","bobo", "fk u smurf","ako mid", "feed better","Delete yourself","go play minecraft","You can't play it.",
+                  "BOT","ATM","Wooden PC","Buy ward leh."]
   },
   {
     "tag": "invoker",
@@ -112,6 +135,11 @@
                   "Enlightenment is mine!","It falls to me to inform you that this one is in the bag!","Over yon?",
                   "QQQ","QQW","QQE","WWW","WWQ","WWE","EEE","EEQ","EEW","QWE",
                   "毁天灭地, NICE啊！"]
+  },
+  {
+    "tag": "Valorant terms",
+    "patterns": ["valorant","valorant -1","GLHF","GH","GG","NT","drop","spray","aim","fake","rotate","plant","defuse","save","eco","full buy","rush","push","peek","mid","connector"],
+    "responses": ["這裏還沒打好"]
   },
   {
     "tag": "Joke",
