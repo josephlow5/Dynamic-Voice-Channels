@@ -27,12 +27,12 @@
     "tag": "Joseph Low",
     "patterns": ["joseph","bobo","jos","jiaquan"],
     "responses": ["Yes, anything i can help you ?","I'm in class, not free","I need to work","I no money again","The stock drop again","Want to go out or not","我又没有钱料",
-                 "谁要打dota?"]
+                 "谁要打dota?","invoker god","single and available"]
   },
   {
     "tag": "Shuhong",
     "patterns": ["DragonXtBlue","sh","Shuhong"],
-    "responses": ["sh要自己加臺詞嗎","叫我幹嘛"]
+    "responses": ["sh要自己加臺詞嗎","叫我幹嘛","SH很有錢"]
   },
   {
     "tag": "Jingkai",
@@ -47,7 +47,7 @@
   {
     "tag": "Lum",
     "patterns": ["多多細胞動物","lum","lam","pl","pooi lum"],
-    "responses": ["還在想臺詞...","谁要打dota?"]
+    "responses": ["還在想臺詞...","谁要打dota?","我有女朋友你沒有"]
   },
   {
     "tag": "Skills",
@@ -96,7 +96,7 @@
   },
   {
     "tag": "Debug",
-    "patterns": ["debug?","How to debug?","有人知道怎么修理bug吗","有人知道怎麽修理bug嗎","怎么修理bug","怎麽修理bug"],
+    "patterns": ["debug?","How to debug?","有人知道怎么修理bug吗","有人知道怎麽修理bug嗎","怎么修理bug","怎麽修理bug","error怎麼辦"],
     "responses": ["Fix your life first.","Just buy a pesticide.","Ez lol, what a stupid question!","You got me","Interesting",
                   "怎么不去把你的人生修理好","買個殺蟲劑就好了","？太簡單了吧？","貼上來看看"]
   },
@@ -134,12 +134,14 @@
     "responses": ["Glorious invocation!","What joy it is beholding me!","So begins a new age of knowledge.","Fight me!"," Knowledge is power!","Who threatens my concentration?",
                   "Enlightenment is mine!","It falls to me to inform you that this one is in the bag!","Over yon?",
                   "QQQ","QQW","QQE","WWW","WWQ","WWE","EEE","EEQ","EEW","QWE",
-                  "毁天灭地, NICE啊！"]
+                  "毁天灭地, NICE啊！","filomena is my daughter","Me and my daughter ganked mirana, ez","You see, tb is just a toolman"]
   },
   {
     "tag": "Valorant terms",
     "patterns": ["valorant","valorant -1","GLHF","GH","GG","NT","drop","spray","aim","fake","rotate","plant","defuse","save","eco","full buy","rush","push","peek","mid","connector"],
-    "responses": ["這裏還沒打好"]
+    "responses": ["noob jett player","you want to play let's play","不明白為什麼有些人只射了一槍就喊大殘","銅牌仔不要吵","useless sova player",
+				  "play duelist, not chichken","沒有heal的奶媽","買vandal幹嘛,你又射不到","買phantom幹嘛,那麼遠沒有傷害",
+				  "here comes the party!","weijun is the best raze player","reyna...sometime god, sometime shit","不用對 拖時間就好 聽不懂嗎?"]
   },
   {
     "tag": "Joke",
