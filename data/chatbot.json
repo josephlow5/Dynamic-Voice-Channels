@@ -27,7 +27,7 @@
     "tag": "Joseph Low",
     "patterns": ["joseph","bobo","jos","jiaquan"],
     "responses": ["Yes, anything i can help you ?","I'm in class, not free","I need to work","I no money again","The stock drop again","Want to go out or not","我又没有钱料",
-                 "谁要打dota?","invoker god","single and available"]
+                 "谁要打dota?","Why that invoker so noob de","single and available","Why is pudge banned again, I one week didn't play alr"]
   },
   {
     "tag": "Shuhong",
@@ -48,6 +48,16 @@
     "tag": "Lum",
     "patterns": ["多多細胞動物","lum","lam","pl","pooi lum"],
     "responses": ["谁要打dota?","我有女朋友你沒有","Techies!","I miss remote mines"]
+  },
+  {
+    "tag": "Weijun",
+    "patterns": ["wj","jun"],
+    "responses": ["c8 kesegia","0",":(","nono"]
+  },
+  {
+    "tag": "Lijun",
+    "patterns": ["屁眼征服者","lijun","lj","emt"],
+    "responses": ["++","v?","a?","有料","ogei","一滴一滴","有人自己一枪都没达到,跟队友说大残"]
   },
   {
     "tag": "Skills",
