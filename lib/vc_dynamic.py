@@ -1,4 +1,4 @@
-from random import randint
+import random
 from . import data
 
 #JK
@@ -12,7 +12,7 @@ async def process_changes(member, after):
         ]
 
     guild = after.channel.guild
-    new_voice_channel = await guild.create_voice_channel(name[randint(0,name.len - 1)],category=after.channel.category, bitrate=96000)
+    new_voice_channel = await guild.create_voice_channel(random.choice(name),category=after.channel.category, bitrate=96000)
     await new_voice_channel.edit(sync_permisions=True)
 
     await member.move_to(new_voice_channel)
