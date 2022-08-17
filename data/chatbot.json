@@ -1,4 +1,4 @@
-{"intents": [
+"intents": [
   {
     "tag": "Greetings 1",
     "patterns": ["hello", "hi", "bello", "yo","halo"],
@@ -6,20 +6,20 @@
   },
   {
     "tag": "Greetings 2",
-    "patterns": ["How are you?", "how are you", "how r u", "How do you feel?"],
+    "patterns": ["How are you?", "how are you", "how r u", "How do you feel?","你好嗎？"],
     "responses": ["Boring Question again...","It's a secret.","Compared to who?","Good enough.","I was fine until you asked.",
                   "I'm not sure yet.","Next question, please.","What do you want?","Do you really care?"]
   },
   {
     "tag": "Name",
     "patterns": ["Who r u?","Who are you?","your name?","What's your name?",
-                 "你的名字","你是谁","你是什麽","你是什么"],
+                 "你的名字","你是谁","你是什麽","你是什么","龍x藍"],
     "responses": ["Dragon who breathe blue fire","Blue Dragon","DragonXtBlue","DragonXtBlue in English","藍色的龍","龍x藍","秘密"]
   },
   {
     "tag": "Creator",
-    "patterns": ["I solemnly swear I'm up to no good.","Who is your creator?", "Who are your creator?", "your creator?",
-                 "創作者","你的創作者","你的創作者是誰","我在此鄭重發誓，我絕對不懷好意","创作者","你的创作者","你的创作者是谁","我在此郑重发誓，我绝对不怀好意"],
+    "patterns": ["I solemnly swear I'm up to no good.","Who is your creator?", "Who are your creator?", "your creator?","designer","code you",
+                 "創作者","你的創作者","你的創作者是誰","我在此鄭重發誓，我絕對不懷好意","创作者","你的创作者","你的创作者是谁","你的開發者是誰","我在此郑重发誓，我绝对不怀好意","聊天機器人"],
     "responses": ["Josephlow, Shuhong, Jkkkk, Yohane and Lum\nare proud to present\nThe DragonXtBlue","It's a secret.",
                  "Josephlow、Shuhong、Jkkkk、Yohane和多多動物細胞\n自豪地獻上\n龍x藍"]
   },
@@ -47,7 +47,7 @@
   {
     "tag": "Lum",
     "patterns": ["多多細胞動物","lum","lam","pl","pooi lum"],
-    "responses": ["還在想臺詞...","谁要打dota?","我有女朋友你沒有"]
+    "responses": ["谁要打dota?","我有女朋友你沒有","Techies!","I miss remote mines"]
   },
   {
     "tag": "Skills",
@@ -85,24 +85,8 @@
     "responses": ["I have over 500 FB friends", "No, same as you."]
   },
   {
-    "tag": "Food",
-    "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat","breakfast","lunch","dinner","supper",
-                 "makan apa","makan","makanan","apa breakfast","apa lunch","apa dinner","breakfast makan apa","lunch makan apa","dinner makan apa",
-                 "吃什麽","選一個食物","來個食物","給個食物","早餐","午餐","晚餐","什麽早餐","什麽午餐","什麽晚餐","早餐吃什麽","午餐吃什麽","晚餐吃什麽"],
-    "responses": ["shit", "tons of shit", "Nasi Lemak", "maggi", "Mcdonald", "KFC", "burger", "mamak", "mihun",
-                  "french fried","bento","yourself","grass","dirt","beef","western-style food","curry","curry mee",
-                  "rice","soup","Porridge","Bread","Seafood","pasta","cookies","noodles","fried chicken","Spaghetti",
-                  "Waffles","fried rice","屎","一大坨屎", "椰漿飯", "雞飯"]
-  },
-  {
-    "tag": "Debug",
-    "patterns": ["debug?","How to debug?","有人知道怎么修理bug吗","有人知道怎麽修理bug嗎","怎么修理bug","怎麽修理bug","error怎麼辦"],
-    "responses": ["Fix your life first.","Just buy a pesticide.","Ez lol, what a stupid question!","You got me","Interesting",
-                  "怎么不去把你的人生修理好","買個殺蟲劑就好了","？太簡單了吧？","貼上來看看"]
-  },
-  {
     "tag": "DOTA term",
-    "patterns": ["gg","ggwp","delete DOTA pls","putang ina mo", "tangina mo","bobo", "smurf","ako mid", "2 tango 1 ward", "mid or feed","ward pls","ward","support","carry",
+    "patterns": ["DOTA","gg","ggwp","delete DOTA pls","putang ina mo", "tangina mo","bobo", "smurf","ako mid", "2 tango 1 ward", "mid or feed","ward pls","ward","support","carry",
                  "Abaddon","Alchemist","Ancient Apparition","Anti-Mage","Arc Warden","Axe",
                  "Bane"," Batrider"," Beastmaster"," Bloodseeker","Bounty Hunter","Brewmaster","Bristleback","Broodmother",
                  "Centaur Warrunner","Chaos Knight","Chen","Clinkz","Clockwerk"," Crystal Maiden",
@@ -126,7 +110,7 @@
                  "Warlock","Weaver","Windranger","Winter Wyvern","Witch Doctor","Wraith King",
                  "Zeus"],
     "responses": ["GG","GGWP","putang ina mo","bobo", "fk u smurf","ako mid", "feed better","Delete yourself","go play minecraft","You can't play it.",
-                  "BOT","ATM","Wooden PC","Buy ward leh."]
+                  "BOT","ATM","Wooden PC","Buy ward leh.","?"]
   },
   {
     "tag": "invoker",
@@ -138,10 +122,33 @@
   },
   {
     "tag": "Valorant terms",
-    "patterns": ["valorant","valorant -1","GLHF","GH","GG","NT","drop","spray","aim","fake","rotate","plant","defuse","save","eco","full buy","rush","push","peek","mid","connector"],
-    "responses": ["noob jett player","you want to play let's play","不明白為什麼有些人只射了一槍就喊大殘","銅牌仔不要吵","useless sova player",
-				  "play duelist, not chichken","沒有heal的奶媽","買vandal幹嘛,你又射不到","買phantom幹嘛,那麼遠沒有傷害",
-				  "here comes the party!","weijun is the best raze player","reyna...sometime god, sometime shit","不用對 拖時間就好 聽不懂嗎?"]
+    "patterns": ["valorant","valorant -1","GLHF","GH","GG","NT","drop","spray","aim","fake","rotate","plant","defuse","save","eco","full buy","rush","push","peek","mid","connector",
+                 "Astra","Breach","Brimstone","Chamber","Cypher","Jett","Kay/O","Killjoy","Neon","Omen","Phoenix","Raze","Reyna","Sage","Skye","Sova","Viper","Yoru",
+                 "特戰英豪","瓦羅蘭","无畏契约"],
+    "responses": ["Don’t get in my way!","Welcome to my world!","Watch this!","Get out of my way!","Let’s go!","Off your feet!","Here comes the party!","Fire in the hole!",
+                  "They will cower!","The hunt begins!","Come on, let’s go!","Jokes over, you’re dead!","Where is everyone hiding?","I know EXACTLY where you are.","Watch them run!",
+                  "Scatter!","I am the hunter!","Nowhere to run!","Open up the sky!","Prepare for hellfire!","Your duty is not over!","You will not kill my allies!","Initiated!",
+                  "You should run!","Seek them out!","“I’ve got your trail!","I’ll handle this","Who’s next","World divided","You’re divided","No one walks away","You. Are. Powerless",
+                  "They are so dead","You want to play? Let’s play","Here we go!","Oy! I’m pissed!","Face Your Fear!","Nightmare take them","還不去放daily highlights?",
+                  "noob jett player","you want to play let's play","不明白為什麼有些人只射了一槍就喊大殘","銅牌仔不要吵","useless sova player",
+		  "play duelist, not chichken","沒有heal的奶媽","買vandal幹嘛,你又射不到","買phantom幹嘛,那麼遠沒有傷害",
+		  "here comes the party!","weijun is the best raze player","reyna...sometime god, sometime shit","不用對 拖時間就好 聽不懂嗎?"]
+  },
+  {
+    "tag": "Food",
+    "patterns": ["What is your favourite food?","What should I eat?","Eat what?","Don't know what to eat","recommend a food","breakfast","lunch","dinner","supper",
+                 "makan apa","makan","makanan","apa breakfast","apa lunch","apa dinner","breakfast makan apa","lunch makan apa","dinner makan apa",
+                 "吃什麽","選一個食物","來個食物","給個食物","早餐","午餐","晚餐","什麽早餐","什麽午餐","什麽晚餐","早餐吃什麽","午餐吃什麽","晚餐吃什麽"],
+    "responses": ["shit", "tons of shit", "Nasi Lemak", "maggi", "Mcdonald", "KFC", "burger", "mamak", "mihun",
+                  "french fried","bento","yourself","grass","dirt","beef","western-style food","curry","curry mee",
+                  "rice","soup","Porridge","Bread","Seafood","pasta","cookies","noodles","fried chicken","Spaghetti",
+                  "Waffles","fried rice","屎","一大坨屎", "椰漿飯", "雞飯","早上好中國\n現在我有冰～淇淋\n我很喜歡冰淇淋"]
+  },
+  {
+    "tag": "Debug",
+    "patterns": ["debug?","How to debug?","有人知道怎么修理bug吗","有人知道怎麽修理bug嗎","怎么修理bug","怎麽修理bug","error怎麼辦"],
+    "responses": ["Fix your life first.","Just buy a pesticide.","Ez lol, what a stupid question!","You got me","Interesting",
+                  "怎么不去把你的人生修理好","買個殺蟲劑就好了","？太簡單了吧？","貼上來看看"]
   },
   {
     "tag": "Joke",
@@ -159,6 +166,11 @@
     "responses": ["No, google yourself lazy fat ass.","Next question pls.","It's a secret","Can't tell you, haha.","不想回答ψ(｀∇´)ψ","Google不香嗎？"]
   },
   {
+    "tag": "HeartBroken",
+    "patterns": ["我失恋了","告白失敗","告白被拒絕怎麽辦","被甩了"],
+    "responses": ["很好,继续寻找你的下一个失败吧"]
+  },
+  {
     "tag": "What",
     "patterns": ["講什麽","講多一次","讲什么","讲多一次"],
     "responses": ["不要，麻煩。","往上看就好了啊。"]
@@ -174,39 +186,82 @@
     "responses": ["Laugh what?","What are you laughing?","lol","HAHAHAHAHAHA"]
   },
   {
-    "tag": "HeartBroken",
-    "patterns": ["我失恋了","告白失敗","告白被拒絕怎麽辦","被甩了"],
-    "responses": ["很好,继续寻找你的下一个失败吧"]
+    "tag": "OK",
+    "patterns": ["ok","okk","okkk","okok","okokok","Okay?"],
+    "responses": ["又okok","每天okok","ok咯","ok什麽鬼","ok your ass","Okay yes, or okay no?","Okay?","I think not","I’ll have to pass on that","It doesn’t seem okay."]
   },
   {
-    "tag": "Speechless",
-    "patterns": ["?","??","？","？？"],
-    "responses": ["我已讀了\n但不知道要回什麽[]~(￣▽￣)~*","stfu","已讀 (o゜▽゜)o☆","哦"]
+    "tag": "BOT upgrade",
+    "patterns": ["improve","improving the library","我懷疑這個ai根本沒屌你在説什麽","add dialogue","ai learning","machine learning"],
+    "responses": ["在做了啦","等我練好就屌爆你φ(゜▽゜*)♪"]
+  },
+  {
+    "tag": "John Cena",
+    "patterns": ["meme","give a meme","迷因","給個迷因","早上好中國","Bing chilling","我很喜歡Bing chilling","江西娜","John Cena","現在是音樂時間"],
+    "responses": ["早上好中國\n現在我有冰～淇淋\n我很喜歡冰淇淋","但是\n速度與激情九 比～冰～淇淋\n速度與激情\n速度與激情九\n我最～喜歡","所～以現～在是音樂～時間準備\n1\n2\n3",
+                  "兩個禮拜以後～\n速度與激情九～","不要忘記\n不要錯過\n去電影院看","速度與激情九\n因為非～常好～電影\n動作非～常好\n差不多一樣","冰～淇淋～再見",
+                  "You can't see me","Are you sure about that?!"]
+  },
+  {
+    "tag": "song",
+    "patterns": ["song","name a song","give a song","sing a song","recommend a song","Can you make a song","歌","來首歌","唱個歌"],
+    "responses": ["We're no strangers to love\nYou know the rules and so do I (do I)","Never gonna give you up\nNever gonna let you down","Never gonna run around and desert you",
+                  "Never gonna make you cry\nNever gonna say goodbye","Never gonna tell a lie and hurt you","現～在是音樂～時間","兩個禮拜以後～\n速度與激情九～",
+                  "We're talking away\nI don't know what","Take on me (take on me)\nTake me on (take on me)","Hey!\nWe are Number One","I wonder if you know\nHow they live in Tokyo (はい!)",
+                  "Hello darkness, my old friend\nI've come to talk with you again","Da, da, da, da, da\nIt's the motherfuckin' D-O-double-G (Snoop Dogg!)",
+                  "Oh don't you dare look back\nJust keep your eyes on me","I said you're holding back\nShe said SHUT UP AND DANCE with me","Oh, no\nSee you walkin' 'round like it's a funeral",
+                  "Waste time with a masterpiece, don't waste time with a masterpiece (huh)\nYou should be rollin' with me, you should be rollin' with me (ah-ah-ah)",
+                  "I-I-I-I-I-I keep on hopin' we'll eat cake by the ocean (uh)","Some legends are told\nSome turn to dust or to gold","But you will remember me\nRemember me for centuries",
+                  "Ooh oh oh oh, ooh oh oh oh\nBe careful making wishes in the dark","So light em up up up, light em up up up,\nlight em up up up, I'm on fire",
+                  "I had the time of my life\nAnd I've never felt this way before","And I swear this is true\nAnd I owe it all to you","I got a feeling\nThat tonight's gonna be a good night",
+                  "Gotta get that\nGotta get that\nGotta get that\nGotta get that that that that that","Boom boom boom (gotta get that)\nBoom boom boom (gotta get that)",
+                  "Creeper, oh man~~~~~","I throw my hands up in the air sometimes\nSaying \"Ayo! Gotta let go!\"","Shawty had them apple bottom jeans (jeans)\nBoots with the fur (with the fur)",
+                  "Oh, oh, oh, oh, oh, sometimes I get a good feeling, yeah","You spin my head right round, right round\nWhen you go down, when you go down down",
+                  "It's going down, I'm yelling timber\nYou better move, you better dance","I just wanna feel this moment\nWoah-oh-oh-oh","Ay ay ay\nAy ay ay\nLet it rain over me"]
   },
   {
     "tag": "Text Seen",
-    "patterns": ["why seen","已讀什麽","已讀什麽","爲什麽要已讀"],
-    "responses": ["想已讀就已讀，你吹啊","不知道要回什麽","懶得踩你","閉嘴啦你","stfu"]
+    "patterns": ["why seen","已讀什麽","已讀什麽","爲什麽要已讀","你就繼續已讀沒有關係","只會這句","看來你只會這句","又是這句"],
+    "responses": ["想已讀就已讀，你吹啊","不知道要回什麽","懶得踩你","閉嘴啦你","stfu","我不需要你理解，只需要你闭嘴。"]
   },
   {
     "tag": "Badwords",
-    "patterns": ["幹","干","媽的","妈的","你他媽的","你他妈的","嫩","操你","雞掰","雞白","擊敗","鸡掰","鸡白","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","垃圾","tmd","nmsl",
+    "patterns": ["幹","干","媽的","妈的","你他媽的","你他妈的","嫩","幹你娘","操你","哇靠","靠","雞掰","雞白","擊敗","鸡掰","鸡白","不要吵","閉嘴","闭嘴","蛤","廢","废","屌","討厭","讨厌","垃圾","菜鷄","我去你的","三小",
+                "他媽三小","他媽的三小","這他媽的三小","仆街","你老母","屌你老母","冚家剷","粉腸","頂你個肺","tmd","nmsl","dllm","pokai",
                 "fk you", "fk u", "fk", "fuck you", "fuck u", "fuck","fking","fucking",
-                "stfu", "shut the fk up", "shut the fuck up", "shut up pls", "shut up please",
+                "stfu", "shut the fk up", "shut the fuck up", "shut up pls", "shut up please","tfu",
                 "eat shit","bullshit","piece of shit", "u r a piece of shit", "you r a piece of shit", "u are a piece of shit", "you are a piece of shit", "such a piece of shit",
                 "eat trash","trash", "garbage", "u r a trash", "you r a trash", "you are a trash",
-                "jibai", "Jibai","sohai","死sohai","WTF","wtf",
-                "moron",
+                "jibai", "Jibai","sohai","死sohai","WTF","wtf","wo cao ni ma",
+                "moron","BOT","yuxuan","yx","weeyuxuan","wee yu xuan","魏榆軒",
                 "noob", "noob shut up", "shut up noob", "noob bot", "noob ai", "useless bot", "useless ai"],
-    "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","tmd","nmsl",
+    "responses": ["幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","屌你老母","冚家剷","這他媽的三小","tmd","nmsl","dllm","pokai",
                 "fk u", "???", "fuck you",
                 "stfu", "shut the fk up", "shut up pls",
                 "You are a piece of shit.",
                 "shut up noob",
-                "jibai", "Jibai","sohai","死sohai","WTF","wtf",
+                "jibai", "Jibai","sohai","死sohai","WTF","wtf","wo cao ni ma",
                 "fking moron",
                 "noob user","useless user",
                 "putang ina mo", "bobo"]
+  },
+  {
+    "tag": "STFU",
+    "patterns": ["?","??","？","？？"],
+    "responses": ["我已讀了\n但不知道要回什麽[]~(￣▽￣)~*","stfu","已讀 (o゜▽゜)o☆","哦哦","嗯嗯","已讀了。","已讀不回，先這樣。","等等你回太快了，我跟不上你的速度！","想已讀就已讀，你吹啊","我想你下一个要学习科目是:学会闭嘴。",
+                  "原来古人说的没有错，人一生只用几年时间学说话，却要用一辈子来学会闭嘴。","有时候，你需要做的就是闭嘴，放下所谓的自尊，承认自己的错误。这不叫放弃，而叫成长","什麽叫瘋子，就是重複做同樣的事情還期待會出現不同的結果。",
+                  "我不需要你理解，只需要你闭嘴。","少说话，多做事，学会闭嘴，是学习独立思考的第一步","每次靠近你，我都特別特別渴望孤獨。",
+                  "Insanity: doing the same thing over and over again and expecting different results.","Ahead, tell them everything you know. It'll only take 10 seconds.",
+                  "When God was throwing intelligence down to the Earth, you were holding an umbrella.","You are a proof that evolution CAN go in reverse.",
+                  "幹", "幹你媽", "操你媽", "雞掰", "？？？", "嫩！","蛤","廢","tmd","nmsl",
+                  "fk u", "???", "fuck you",
+                  "stfu", "shut the fk up", "shut up pls",
+                  "You are a piece of shit.",
+                  "shut up noob",
+                  "jibai", "Jibai","sohai","死sohai","WTF","wtf",
+                  "fking moron",
+                  "noob user","useless user",
+                  "putang ina mo", "bobo"]
   }
 ]
 }
