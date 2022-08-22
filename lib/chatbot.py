@@ -107,9 +107,7 @@ async def input_chat(message,client):
                                  description=f"自己找[https://www.google.com?s={content}](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
         await message.channel.send(embed=embedVar)
     # 2.12 Valorant -1
-    elif "valorant -1" in content or "-1" in content or "-2" in content or "-3" in content:
-        await message.channel.send(f"@everyone")
-
+    
     # 3. See whether someone has teached us how to reply
     teached = data.read_teached()
     received = content.strip(" ").strip("\n")   
