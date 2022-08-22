@@ -10,7 +10,10 @@ def read_teached():
             received = teach.split("\n||x|x||\n")[0].strip(" ").strip("\n")
             reply = teach.split("\n||x|x||\n")[1].strip(" ").strip("\n")
             if received in teached:
-                listedreply = [teached[received]]
+                if isinstance(teached[received], list):
+                    listedreply = teached[received]
+                else:
+                    listedreply = [teached[received]]
                 listedreply.append(reply)
                 teached[received] = listedreply
             else:
