@@ -7,11 +7,12 @@
 
 first_run = False
 
-from random import randint
+from random import randint,choice
 import time
 import os
 import sys
 import discord
+from . import data
 from opencc import OpenCC
 
 directory = os.getcwd()
@@ -109,7 +110,16 @@ async def input_chat(message,client):
     elif "valorant -1" in content or "-1" in content or "-2" in content or "-3" in content:
         await message.channel.send(f"@everyone")
 
-    # 3.Encounter general question with Neuralintents
+    # 3. See whether someone has teached us how to reply
+    teached = data.read_teached()
+    elif content in teached:
+        if isinstance(teached[content], list):
+            response = choice(teached[content])
+        else:
+            response = teached[content]
+        await message.channel.send(response) 
+        
+    # 4.Encounter general question with Neuralintents
     else:
         response = chatbot.request(content)
         await message.channel.send(response)

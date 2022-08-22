@@ -80,6 +80,11 @@ async def setup(interaction: discord.Interaction):
     reply = await s_command.setup(interaction.guild,client)      #3.4 Slash Command - Setup.
     await interaction.response.send_message(f'{reply}')
 
+@client.tree.command()
+async def learn(interaction: discord.Interaction, text_receive: str, text_reply: str):
+    reply = await s_command.learn(text_receive,text_reply)      #3.5 Slash Command - Learn.
+    await interaction.response.send_message(f'{reply}', ephemeral=True)
+    
 
 #4. Run the bot.
 client.run(bot_token)
