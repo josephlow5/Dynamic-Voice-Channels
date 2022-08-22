@@ -1,14 +1,14 @@
 def read_teached():
     teached = {}
     try:
-        with open("data/teach.txt",encoding='utf-8') as teachFile:
+        with open("data/teach.txt",encoding='utf-8-sig') as teachFile:
             raw_teached = teachFile.read()
     except:
         pass
     for teach in raw_teached.split("\n|x|x|\n"):
         if "\n||x|x||\n" in teach:
             received = teach.split("\n||x|x||\n")[0].strip(" ").strip("\n")
-            reply = teach.split("\n||x|x||\n")[0].strip(" ").strip("\n")
+            reply = teach.split("\n||x|x||\n")[1].strip(" ").strip("\n")
             if received in teached:
                 listedreply = [teached[received]]
                 listedreply.append(reply)
@@ -17,7 +17,7 @@ def read_teached():
                 teached[received] = reply
     return teached
 def add_teached(text_receive,text_reply):
-    with open("data/teach.txt",'a',encoding='utf-8') as teachFile:
+    with open("data/teach.txt",'a',encoding='utf-8-sig') as teachFile:
         teachFile.write(text_receive+"\n||x|x||\n"+text_reply+"\n|x|x|\n")
 
 def cleanup(some_list):

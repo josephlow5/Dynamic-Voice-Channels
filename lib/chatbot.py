@@ -112,11 +112,12 @@ async def input_chat(message,client):
 
     # 3. See whether someone has teached us how to reply
     teached = data.read_teached()
-    elif content in teached:
-        if isinstance(teached[content], list):
-            response = choice(teached[content])
+    received = content.strip(" ").strip("\n")   
+    if received in teached:
+        if isinstance(teached[received], list):
+            response = choice(teached[received])
         else:
-            response = teached[content]
+            response = teached[received]
         await message.channel.send(response) 
         
     # 4.Encounter general question with Neuralintents

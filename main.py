@@ -42,11 +42,16 @@ client = MyClient(intents=intents)
 @client.event
 async def on_ready():
     await client.setup_hook()
-    print('龙x蓝准备就绪!')
+    print('DragonXtBlue Superb Bot is Fking Ready to Kick some ass!')
 
 recent_chatbot_records = {}
 @client.event
 async def on_message(message):
+    if message.author.id == client.user.id:
+        return
+    if message.interaction:
+        return
+    
     if data.is_monitor_chat_channel(message.channel.id):
         if message.channel.id not in recent_chatbot_records:
             recent_chatbot_records[message.channel.id] = {"timestamp":None}

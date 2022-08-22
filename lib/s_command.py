@@ -4,6 +4,7 @@
 #Reply slash command
 
 from . import data
+from opencc import OpenCC
 
 async def setup(guild,client):
     DxB_category = await guild.create_category("DxB")
@@ -15,6 +16,10 @@ async def setup(guild,client):
     return reply
 
 async def learn(text_receive,text_reply):
+    cc = OpenCC('s2tw')
+    text_receive = cc.convert(text_receive)
+    text_reply = cc.convert(text_reply)
+    
     data.add_teached(text_receive,text_reply)
     reply = "I will reply it next time, thank you for teaching me!"
     return reply
