@@ -123,7 +123,7 @@ async def input_chat(message,client):
         if similarity > relative_trigger_similarity:
             relative_trigger = teach
             relative_trigger_similarity = similarity
-    if relative_trigger_similarity > 0.75:
+    if relative_trigger_similarity > 0.7:
         if isinstance(teached[relative_trigger], list):
             response = choice(teached[relative_trigger])
         else:
