@@ -14,6 +14,7 @@ import sys
 import discord
 from . import data
 from opencc import OpenCC
+from difflib import SequenceMatcher
 
 directory = os.getcwd()
 sys.path.insert(0, directory+"\lib")
@@ -37,6 +38,7 @@ async def input_chat(message,client):
         return
     cc = OpenCC('s2tw')
     content = cc.convert(message.content)
+
 
     # 1.basic example
     if content == '哈咯' or content == '嗨' or content == '你好':
@@ -107,15 +109,25 @@ async def input_chat(message,client):
                                  description=f"自己找[https://www.google.com?s={content}](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
         await message.channel.send(embed=embedVar)
     # 2.12 Valorant -1
-    
+    # Deprecated by JK
+
     # 3. See whether someone has teached us how to reply
     teached = data.read_teached()
-    received = content.strip(" ").strip("\n")   
-    if received in teached:
-        if isinstance(teached[received], list):
-            response = choice(teached[received])
+    received = content.strip(" ").strip("\n")
+
+    #Check if there is a knowledge that is 75% similar than the input
+    relative_trigger = ""
+    relative_trigger_similarity = 0.0
+    for teach in teached:
+        similarity = SequenceMatcher(None, received, teach).ratio()
+        if similarity > relative_trigger_similarity:
+            relative_trigger = teach
+            relative_trigger_similarity = similarity
+    if relative_trigger_similarity > 0.75:
+        if isinstance(teached[relative_trigger], list):
+            response = choice(teached[relative_trigger])
         else:
-            response = teached[received]
+            response = teached[relative_trigger]
         await message.channel.send(response) 
         
     # 4.Encounter general question with Neuralintents
