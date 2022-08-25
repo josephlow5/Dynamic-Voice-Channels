@@ -52,7 +52,7 @@
   {
     "tag": "Weijun",
     "patterns": ["wj","jun","weijun"],
-    "responses": ["c8 kesegia","0",":(","nono"]
+    "responses": ["@jun c8 kesegia","@jun 0","@jun :(","@jun nono"]
   },
   {
     "tag": "Lijun",
