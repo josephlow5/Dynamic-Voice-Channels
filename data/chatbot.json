@@ -505,7 +505,9 @@
         "沒有下一場的啦 每次打完就散了",
         "媽蛋等你們那麽久結果退了",
         "12點了咯明天不用上班啊",
-        "頭痛啊一天2場就好"
+        "頭痛啊一天2場就好",
+        "https://tenor.com/view/i-want-to-play-a-game-play-time-play-game-saw-gif-16238278",
+        "https://tenor.com/view/i-want-to-play-play-wanna-play-gif-21857577"
       ]
     },
     {
@@ -653,7 +655,14 @@
         "BOT",
         "ATM",
         "Wooden PC",
-        "Buy ward leh."
+        "Buy ward leh.",
+        "https://tenor.com/view/dota2-ijudas-gif-23993465",
+        "https://tenor.com/view/dota-medal-dota-rank-medal-rank-medal-dota-gif-25186279",
+        "https://tenor.com/view/dota2-dazzle-hespanhol-dota-gif-25460857",
+        "https://tenor.com/view/dota-dota2-chibi-gif-5159806",
+        "https://tenor.com/view/lion-dota-to-hell-and-back-taunt-gif-25497524",
+        "https://tenor.com/view/yeah-yes-gaben-gabe-newell-gif-19062679",
+        "https://tenor.com/view/og-dota-topson-scream-gif-14868897"
       ]
     },
     {
@@ -688,14 +697,14 @@
         "毁天灭地, NICE啊！",
         "filomena is my daughter",
         "Me and my daughter ganked mirana, ez",
-        "You see, tb is just a toolman"
+        "You see, tb is just a toolman",
+        "https://tenor.com/view/yes-oh-yes-invoker-smile-gif-14698222"
       ]
     },
     {
       "tag": "Valorant terms",
       "patterns": [
         "valorant",
-        "valorant -1",
         "GLHF",
         "GH",
         "GG",
@@ -789,7 +798,38 @@
         "here comes the party!",
         "weijun is the best raze player",
         "reyna...sometime god, sometime shit",
-        "不用對 拖時間就好 聽不懂嗎?"
+        "不用對 拖時間就好 聽不懂嗎?",
+        "https://tenor.com/view/valorant-can-we-play-valorant-epic-gamers-server-oni-cyborg-yes-gif-22029815",
+        "https://tenor.com/view/brimstone-valorant-brimstone-thicc-thick-gif-25739214",
+        "https://tenor.com/view/valorant-chamber-kayo-dance-dancing-gif-25825452",
+        "https://tenor.com/view/head-turn-killjoy-valorant-staring-looking-gif-26028557"
+      ]
+    },
+    {
+      "tag": "DOTA invitation",
+      "patterns": [
+        "DOTA -1",
+        "DOTA -2",
+        "DOTA -3",
+        "DOTA -4"
+      ],
+      "responses": [
+        "https://tenor.com/view/dota-dota2-invoker-nyx-rave-gif-25637997",
+        "https://tenor.com/view/dota-gif-22640703"
+      ]
+    },
+    {
+      "tag": "Valorant invitation",
+      "patterns": [
+        "valorant -1",
+        "valorant -2",
+        "valorant -3",
+        "valorant -4"
+      ],
+      "responses": [
+        "https://tenor.com/view/valorant-valorant-meme-play-valorant-hop-on-valorant-valorant-time-gif-26090808",
+        "https://tenor.com/view/hasbulla-gif-22466319",
+        "https://tenor.com/view/valorant-monke-wake-up-gif-22721390"
       ]
     },
     {
@@ -877,7 +917,8 @@
         "一大坨屎",
         "椰漿飯",
         "雞飯",
-        "早上好中國\n現在我有冰～淇淋\n我很喜歡冰淇淋"
+        "早上好中國\n現在我有冰～淇淋\n我很喜歡冰淇淋",
+        "https://tenor.com/view/yummy-nom-nom-hungry-hangry-starving-gif-24442611"
       ]
     },
     {
@@ -903,7 +944,9 @@
         "怎么不去把你的人生修理好",
         "買個殺蟲劑就好了",
         "？太簡單了吧？",
-        "貼上來看看"
+        "貼上來看看",
+        "https://tenor.com/view/debugging-programming-debugging-is-like-debugging-be-like-wipe-mess-gif-12697354",
+        "https://tenor.com/view/critical-ops-we-do-a-little-trolling-trolling-hacking-hack-gif-20964053"
       ]
     },
     {
@@ -1150,7 +1193,9 @@
         "okkk",
         "okok",
         "okokok",
-        "Okay?"
+        "Okay?",
+        "ok吧",
+        "ok ba"
       ],
       "responses": [
         "又okok",
@@ -1162,7 +1207,8 @@
         "Okay?",
         "I think not",
         "I’ll have to pass on that",
-        "It doesn’t seem okay."
+        "It doesn’t seem okay.",
+        "https://tenor.com/view/okay-and-gif-20790957"
       ]
     },
     {
@@ -1274,7 +1320,10 @@
         "速度與激情九\n因為非～常好～電影\n動作非～常好\n差不多一樣",
         "冰～淇淋～再見",
         "You can't see me",
-        "Are you sure about that?!"
+        "Are you sure about that?!",
+        "https://tenor.com/view/john-cena-you-cant-see-me-youre-blind-wrestler-gif-14537197",
+        "https://tenor.com/view/bing-chi-ling-alex-mei-bing-chi-ling-alex-gif-21908053",
+        "https://tenor.com/view/are-you-sure-john-cena-ru-sure-about-dat-gif-14258954"
       ]
     },
     {
@@ -1329,7 +1378,8 @@
         "It's going down, I'm yelling timber\nYou better move, you better dance",
         "I just wanna feel this moment\nWoah-oh-oh-oh",
         "Ay ay ay\nAy ay ay\nLet it rain over me",
-        "Ah, music. A magic beyond all we do here!"
+        "Ah, music. A magic beyond all we do here!",
+        "https://tenor.com/view/rickroll-roll-rick-never-gonna-give-you-up-never-gonna-gif-22954713"
       ]
     },
     {
@@ -1677,7 +1727,8 @@
         "Challenge accepted.",
         "Dancing is life.",
         "This is what we do when we're bored.",
-        "My Day: Wake up, TikTok, Sleep."
+        "My Day: Wake up, TikTok, Sleep.",
+        "https://tenor.com/view/hitmans-bodyguard-hitmans-bodyguard-gi-fs-samuel-l-jackson-time-tick-tock-gif-8352665"
       ]
     },
     {
@@ -1690,7 +1741,13 @@
         "3",
         "baby",
         "calm down, later someone post you on confession",
-        "10"
+        "10",
+        "https://tenor.com/view/calculation-math-hangover-allen-zach-galifianakis-gif-6219070",
+        "https://tenor.com/view/math-calculate-confusing-figure-out-gif-6237717",
+        "https://tenor.com/view/doug-maclean-mac-kyper-kypreos-nick-kypreos-gif-22264825",
+        "https://tenor.com/view/spongebob-maths-spongebobmaths-gif-19232863",
+        "https://tenor.com/view/mathimathz-math-gif-21417954",
+        "https://tenor.com/view/chad-maths-chad-maths-maths-chad-gif-24525120"
       ]
     },
     {
@@ -1732,7 +1789,9 @@
         "ya it is better than you",
         "yes yes better than your mum",
         "那肯定 我可是相當優秀的機器人",
-        "謝謝你的誇獎 垃圾"
+        "謝謝你的誇獎 垃圾",
+        "https://tenor.com/view/john-cena-salute-thumbs-up-wwe-raw-gif-10636757",
+        "https://tenor.com/view/omg-wow-wow-meme-omg-wow-gif-download-omg-meme-gif-25892525"
       ]
     },
     {
@@ -1740,20 +1799,31 @@
       "patterns": [
         "沒有料",
         "bot沒有料",
+        "廢物bot",
         "noob bot",
         "noob chatbot",
         "noob ai",
-        "bad ai",
+        "bad bot",
         "bad chatbot",
+        "bad ai",
         "stupid bot",
         "stupid chatbot",
-        "stupid ai"
+        "stupid ai",
+        "useless bot",
+        "useless chatbot",
+        "useless ai"
       ],
       "responses": [
         "sorry咯我就爛 你厲害啦 這就是為什麼你女朋友離開你",
-        "什麼料 咖喱炸料?",
+        "我沒有料？什麼料 咖喱炸料?",
         "你有自知自明就好。",
-        "哪裏夠你嫩"
+        "哪裏夠你嫩",
+        "https://tenor.com/view/john-cena-gif-23324392",
+        "https://tenor.com/view/uhhhhhhhm-ughm-gif-22795315",
+        "https://tenor.com/view/kids-meme-stare-uhm-gif-16606126",
+        "https://tenor.com/view/stfu-shut-up-stop-shut-your-mouth-shut-it-down-gif-20324546",
+        "https://tenor.com/view/stfu-shut-up-chris-rock-will-smith-slap-gif-25233455",
+        "https://tenor.com/view/shut-up-shut-up!-person-human-interior-design-gif-7099291624032059423"
       ]
     },
     {
@@ -1835,7 +1905,9 @@
         "閉嘴啦你",
         "STFU",
         "我不需要你理解，只需要你闭嘴。",
-        "You dare use my own spells against me?"
+        "You dare use my own spells against me?",
+        "https://tenor.com/view/hey-seenzone-gif-4667908",
+        "https://tenor.com/view/i-pretend-i-do-not-see-it-mashiho-treasure-gif-19716901"
       ]
     },
     {
@@ -1912,10 +1984,8 @@
         "you r a trash",
         "you are a trash",
         "jibai",
-        "Jibai",
         "sohai",
         "死sohai",
-        "WTF",
         "wtf",
         "wo cao ni ma",
         "doubi",
@@ -1927,12 +1997,6 @@
         "wee yu xuan",
         "魏榆軒",
         "noob",
-        "noob shut up",
-        "shut up noob",
-        "noob bot",
-        "noob ai",
-        "useless bot",
-        "useless ai"
       ],
       "responses": [
         "幹",
@@ -1959,10 +2023,8 @@
         "You are a piece of shit.",
         "shut up noob",
         "jibai",
-        "Jibai",
         "sohai",
         "死sohai",
-        "WTF",
         "wtf",
         "wo cao ni ma",
         "fking moron",
@@ -1970,7 +2032,15 @@
         "useless user",
         "putang ina mo",
         "bobo",
-        "https://tenor.com/view/rubbish-worthless-trash-useless-harry-potter-gif-15688411"
+        "https://tenor.com/view/rubbish-worthless-trash-useless-harry-potter-gif-15688411",
+        "https://tenor.com/view/fck-fack-curse-word-bad-words-gif-20913851",
+        "https://tenor.com/view/mfer-samuel-l-jackson-you-mothafucka-stare-creepy-gif-16524530",
+        "https://tenor.com/view/hello-sup-gif-25291112",
+        "https://tenor.com/view/excuse-me-well-excuse-me-my-bad-forgive-me-gif-22026937",
+        "https://tenor.com/view/stfu-shut-up-stop-shut-your-mouth-shut-it-down-gif-20324546",
+        "https://tenor.com/view/stfu-shut-up-chris-rock-will-smith-slap-gif-25233455",
+        "https://tenor.com/view/stfulmfao-gif-21230405",
+        "https://tenor.com/view/stop-stop-it-mj-michael-jordan-nope-gif-5098905"
       ]
     },
     {
@@ -1993,17 +2063,14 @@
         "等等你回太快了，我跟不上你的速度！",
         "想已讀就已讀，你吹啊",
         "我想你下一个要学习科目是:学会闭嘴。",
-        "原来古人说的没有错，人一生只用几年时间学说话，却要用一辈子来学会闭嘴。",
         "我不是針對你，我是說在座的各位都是垃圾",
         "什麽叫瘋子，就是重複做同樣的事情還期待會出現不同的結果。",
         "我不需要你理解，只需要你闭嘴。",
-        "少说话，多做事，学会闭嘴，是学习独立思考的第一步",
         "Insanity: doing the same thing over and over again and expecting different results.",
         "Ahead, tell them everything you know. It'll only take 10 seconds.",
         "When God was throwing intelligence down to the Earth, you were holding an umbrella.",
         "You are a proof that evolution CAN go in reverse.",
         "I will look for you, I will find you, and I will kill you.",
-        "You can’t handle the truth.",
         "幹",
         "幹你媽",
         "操你媽",
@@ -2023,16 +2090,27 @@
         "You are a piece of shit.",
         "shut up noob",
         "jibai",
-        "Jibai",
         "sohai",
         "死sohai",
-        "WTF",
         "wtf",
         "fking moron",
         "noob user",
         "useless user",
         "putang ina mo",
-        "bobo"
+        "bobo",
+        "https://tenor.com/view/headache-stupid-people-oh-my-god-omg-oh-my-gosh-gif-22026951",
+        "https://tenor.com/view/nick-young-question-mark-huh-what-confused-gif-4995479",
+        "https://tenor.com/view/john-cena-relieved-smiling-wrestling-gif-19533991",
+        "https://tenor.com/view/john-cena-eyebrow-rise-meme-john-cena-meme-eyebrow-rise-meme-eyebrow-gif-23687078",
+        "https://tenor.com/view/singles-hearing-love-songs-be-like-trending-paw-paw-nigerian-boy-meme-gif-9835516798010093524",
+        "https://tenor.com/view/uhhhhhhhm-ughm-gif-22795315",
+        "https://tenor.com/view/cringe-meme-gif-24957305",
+        "https://tenor.com/view/kids-meme-stare-uhm-gif-16606126",
+        "https://tenor.com/view/rickroll-roll-rick-never-gonna-give-you-up-never-gonna-gif-22954713",
+        "https://tenor.com/view/excuse-me-well-excuse-me-my-bad-forgive-me-gif-22026937",
+        "https://tenor.com/view/stfu-shut-up-chris-rock-will-smith-slap-gif-25233455",
+        "https://tenor.com/view/shut-up-cat-monch-cat-monch-spinfal-gif-19376414",
+        "https://tenor.com/view/stop-stop-it-mj-michael-jordan-nope-gif-5098905"
       ]
     }
   ]
