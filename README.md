@@ -1,5 +1,5 @@
 
-# DragonXtBlue-Impressive Discord Bot
+# DragonXtBlue-Impressive (NLP AI Sarcastic Responding Discord Bot)
 
 Inspired by https://yeecord.com/
 
